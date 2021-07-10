@@ -2,7 +2,7 @@ import chai from "chai";
 import { ethers, network, waffle } from "hardhat";
 import { solidity } from "ethereum-waffle";
 
-chai.use(solidity);
+chai.use(solidity2);
 const { BigNumber: BN } = ethers;
 const { parseEther } = ethers.utils;
 const { expect } = chai;
